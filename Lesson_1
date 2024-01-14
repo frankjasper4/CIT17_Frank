@@ -1,12 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+<html>
 
+<body>
+    <a href="/lessons">Back</a>
+    <br/>
+    <h1> Lesson 1</h1>
+    <?php
+    #This is a comment, and
+    #This is the second line of the comment
+    // This is a comment too.
+    echo "<h3>An Example with single line comments</h3>";
+    echo "//COmment"
+
+    /* Comment with multiline 
+    Author: Frank Jasper Paleng
+    Purpose: Multiline Comments Demo
+    Subject: PHP 
+    */
+    echo "<br/>";
+    echo "<h3> An example with multi line commetns</h3>";
+    echo"
+    /* <br/>
+    This is a comment with multiline <br/>
+    Subject: PHP <br/>
+    */:;
+    ?>
 </body>
-</html
+</html>
