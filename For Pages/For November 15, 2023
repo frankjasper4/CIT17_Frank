@@ -1,0 +1,39 @@
+Create Table Course (
+CourseID int NOT NULL,
+Coursename varchar(255).
+Credits varchar(255),
+Prim,ary Key (CourseID)
+);
+
+Create Table Enrollment(
+    EnrollmentID int NOT NULL,
+    StudentID int,
+    CourseID int,
+    EnrollmentDate varchar(255),
+    Grade varchar(255),
+    Primary key (EnrollmentID),
+    Foreign Key (StudentID) REFERENCES Student(StudentID),
+    Foreign Key (CourseID) REFERENCES Course(Course ID)
+);
+
+Create TRable Instructor(
+    InstructorID int NOT NULL,
+    FirstName varchar(255),
+    Lastname varchar(255),
+    Email varchar(255),
+    Phone varchar(255),
+    Primary Key(Instructor ID)
+)
+
+insert into Enrollment
+VALUES ("123123","001","CIT17", "Date", "99");
+
+Create Table Student(
+    Student ID int NOT NULL,
+    FirstName varchar(255) NOT NULL,
+    Lastname varchar(255),
+    DateofBirth varchar(255),
+    Email varchar(255),
+    Phone varchar(255),
+    Primary Key (studentID)
+);
